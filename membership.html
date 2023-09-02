@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@500;700&family=Sanchez&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/membership.css">
+    
+    <title>Go-Litech</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo"><img src="img/LOGOS.png" alt=""></a>        <div class="navbar-nav">
+            <a href="index.html">Home</a>
+            <a href="Produk.html">PRODUK</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="registrasi.html">Membership</a>
+            <a href="location.html">Offline Store</a>
+        </div>
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+   
+    
+<div class="wrapper">
+    <div class="title">
+      Membership Form
+    </div>
+    <form action="#">
+    <div class="register">
+       <div class="inputfield">
+          <label>Name </label>
+          <input type="text" class="input" id="name">
+       </div>  
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input" id="password">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" class="input" id="confirmPass">
+       </div> 
+
+       
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="gender-details-box">
+            <div class="gender-category">
+              <input type="radio" name="gender" id="male">
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female">
+              <label for="female">Female</label>
+            </div>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" class="input" id="email">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" class="input" id="phoneNumber">
+       </div> 
+      <div class="inputfield">
+          <label>Address</label>
+          <textarea class="textarea" id="address"></textarea>
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox" id="agreement">
+            <span class="checkmark"></span>
+          </label>
+          <p>I’M  WILLING TO RECEIVE INTERESTING PROMO INFO FROM GO-LITECH</p>
+       </div> 
+      <div class="inputfield">
+        <button class="button">Send message</button>
+      </div>
+    </div>
+</div>
+</form>
+
+
+
+<footer class="footer">
+    <div class="images">
+        <img src="img/logo1.png" alt="" width="300px">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">career</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Produk</h4>
+                <ul>
+                    <li><a href="#">Sunscreen</a></li>
+                    <li><a href="#">Cream</a></li>
+                    <li><a href="#">Toner</a></li>
+                    <li><a href="#">Moisturizer</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i data-feather="instagram"></i></a>
+                    <a href="#"><i data-feather="facebook"></i></a>
+                    <a href="#"><i data-feather="twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    feather.replace()
+</script>
+<!-- my js -->
+<script src="js/script.js"></script>
+<script src="js/validasi.js"></script>
+	
+</body>
+</html>

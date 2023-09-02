@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ruda:wght@500;700&family=Sanchez&display=swap" rel="stylesheet">
+<!-- Icon -->
+<script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/registrasi.css">
+    
+    <title>Go-Litech</title>
+</head>
+<body>
+        <!-- Navbar Start -->
+        <nav class="navbar">
+            <a href="index.html" class="navbar-logo"><img src="img/logo1.png" alt=""></a>
+            <div class="navbar-nav">
+                <a href="index.html">Home</a>
+                <a href="Produk.html">Produk</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="registrasi.html">Membership</a>
+                <a href="location.html">Offline Store</a>
+            </div>
+            <div class="navbar-extra">
+                <a href="#" id="search"><i data-feather="search"></i></a>
+                <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+            </div>
+        </nav>
+
+
+    <div class="wrapper">
+        <div class="header">
+            <h2>Daftar Membership</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Nama</label>
+                <input type="text" placeholder="Andrew Alfonso Lie" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Kata sandi</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Konfirmasi Kata sandi</label>
+                <input type="password" placeholder="confirm password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control gender">
+                <label for="gender">Jenis Kelamin</label>
+                <div class="gender-buttons">
+                  <input type="radio" name="gender" id="male">
+                  <label for="male">pria</label>
+                  <input type="radio" name="gender" id="female">
+                  <label for="female">wanita</label>
+                  <small>Error message</small>
+                </div>
+              </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="andrew.lie001@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Nomor Telepon</label>
+                <input type="number" placeholder="081284666145" id="phoneNumber" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="address">Alamat</label>
+                <textarea placeholder="Jalan Perumahan Taman Grisenda D4/27" id="address"></textarea>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control promo">
+                <label class="check">
+                    <input type="checkbox" id="promo" />
+                    <span class="checkmark"></span>
+                </label>
+                <small>Error message</small>
+                <p>SAYA BERSEDIA MENERIMA INFO PROMO MENARIK DARI GO-LITECH</p>
+            </div>
+              
+              
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="images">
+            <img src="img/logo1.png" alt="" width="300px">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">career</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#">Sunscreen</a></li>
+                        <li><a href="#">Cream</a></li>
+                        <li><a href="#">Toner</a></li>
+                        <li><a href="#">Moisturizer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i data-feather="instagram"></i></a>
+                        <a href="#"><i data-feather="facebook"></i></a>
+                        <a href="#"><i data-feather="twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+      </script>
+<script src="js/registrasi.js"></script>
+      <!-- my js -->
+      <script src="js/script.js"></script>
+      
+</body>
+</html>
+
+
+
+
+
+
+
+        
+ 
